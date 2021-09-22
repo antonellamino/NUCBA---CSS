@@ -1,0 +1,29 @@
+
+/*si solo copiamos el import, tambien funciona*/
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+/*podemos poner el estilo a varias cosas, separando por coma*/
+h1, p{
+    color: slategray;
+    font-family: 'Caramel', cursive;
+}
+
+
+/*font weight no es lo mismo que tamanio, es el peso, no lleva medidas*/
+h1{
+    font-weight: 500; /*si nos trajimos la medida 100 y 900 usamos 100 y 900 porque si no, 
+    no las conoce*/
+    font-size: 2em;
+}
+
+
+/*cuando tiene el mismo peso elige el ultimo valor*/
+p{
+    color: black;
+    font-weight: 200;
+    font-size: 3em;
+}
+
+.pixel{
+    font-size: 48px;
+}

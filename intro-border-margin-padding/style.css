@@ -1,0 +1,23 @@
+body{
+    background-color: palegreen;
+    margin: 0;
+}
+
+div{
+    background-color: paleturquoise;
+    margin: 4%;
+    padding: 3%; /*margen para adentro*/
+    border-radius: 30px; /*border radius si va en pixeles*/
+}
+
+div p{
+    color: rebeccapurple;
+}
+
+p{
+    color: blue
+}
+
+.lorem{
+    color: peru;
+}
